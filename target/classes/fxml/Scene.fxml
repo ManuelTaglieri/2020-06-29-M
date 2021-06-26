@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="473.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.imdb.FXMLController">
+<BorderPane prefHeight="473.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.imdb.FXMLController">
    <top>
       <Label text=" Esame 29/06/2020 IMDB" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -40,12 +40,12 @@
                         <Insets right="20.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="btnAdiacenti" mnemonicParsing="false" onAction="#doRegistiAdiacenti" prefWidth="200.0" text="Registi Adiacenti" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <Button fx:id="btnAdiacenti" disable="true" mnemonicParsing="false" onAction="#doRegistiAdiacenti" prefWidth="200.0" text="Registi Adiacenti" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <GridPane.margin>
                         <Insets right="20.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="btnCercaAffini" mnemonicParsing="false" onAction="#doRicorsione" prefWidth="200.0" text="Cerca Registi Affini" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Button fx:id="btnCercaAffini" disable="true" mnemonicParsing="false" onAction="#doRicorsione" prefWidth="200.0" text="Cerca Registi Affini" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <GridPane.margin>
                         <Insets right="20.0" />
                      </GridPane.margin>

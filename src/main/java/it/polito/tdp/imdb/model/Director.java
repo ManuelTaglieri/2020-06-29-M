@@ -4,6 +4,7 @@ public class Director {
 	Integer id;
 	String firstName;
 	String lastName;
+	double pesoAdiacente;
 	
 	public Director(Integer id, String firstName, String lastName) {
 		super();
@@ -64,6 +65,14 @@ public class Director {
 		} else if (!id.equals(other.id))
 			return false;
 		return true;
+	}
+
+	public double getPesoAdiacente() {
+		return pesoAdiacente;
+	}
+
+	public void setPesoAdiacente(double d) {
+		this.pesoAdiacente = d;
 	}
 	
 }
