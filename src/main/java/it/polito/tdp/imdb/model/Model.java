@@ -93,7 +93,9 @@ public class Model {
 		
 		this.attoriMassimi = 0;
 		this.percorsoMigliore = new LinkedList<>();
-		ricorsione(d, c, 0, new ArrayList<Director>());
+		ArrayList<Director> percorso = new ArrayList<Director>();
+		percorso.add(d);
+		ricorsione(d, c, 0, percorso);
 		
 	}
 
